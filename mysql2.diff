@@ -1,0 +1,14 @@
+17c17
+< grades=[( "class 1c", 30, "english lang", 1),
+---
+> grades=[( "class 1c", 30, "physics", 1),
+19c19,20
+<         ( "class 2c", 22, "civil education", 3)]
+---
+>         ( "class 2c", 22, "ict", 3)
+> 	( "class 3d", 33, "home economics", 4)]
+39c40
+< #db.commit()
+\ No newline at end of file
+---
+> #db.commit()
